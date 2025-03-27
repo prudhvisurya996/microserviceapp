@@ -13,3 +13,5 @@ echo \
 sudo apt-get update
 sleep 2
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo apt install docker-compose -y
+echo "Docker-compose is installed successfully"
